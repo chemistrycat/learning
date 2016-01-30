@@ -3,8 +3,12 @@
         
         <title> html forms</title>
         
-        
-        
+        <style>
+            div {padding: 15px; }
+            label {font-weight: bold; display: block;text-transform: capitalize;font-family: sans-serif;font-size: 20px;padding-bottom: 5px;}
+            input[type='text'], textarea {height: 30px;line-height: 30px;width: 300px; border: none; border-bottom: 1px solid green;}
+            textarea {height: 200px;border-right: 1px solid green;}
+        </style>
     </head>
     <body>
         
@@ -15,8 +19,8 @@
             </div>
             
             <div>
-               <label>Indian</label>
-                 <input type="checkbox">
+                <label>Indian</label>
+                <input type="checkbox">
             </div>
             
             <div>
@@ -32,7 +36,13 @@
             </div>
             
             <div>
-                <input type="submit" value="submit">
+               <label>Password</label> 
+               <input type="password">
+            </div>
+            
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
             </div>
             
             
